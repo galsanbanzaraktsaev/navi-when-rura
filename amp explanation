@@ -1,0 +1,12 @@
+While AMP pages primarily use HTML, they do interact with JavaScript in a specific way:
+AMP Runtime:
+The core functionality of AMP is powered by the AMP runtime, which is a JavaScript library.
+This runtime manages resource loading, prioritization, and validation of AMP HTML documents.
+Custom JavaScript:
+AMP allows limited use of custom JavaScript through the <amp-script> component.
+This JavaScript runs in a Web Worker, which is a separate thread from the main page thread, ensuring that it doesn't block the page rendering.
+However, there are restrictions on the APIs that can be used within <amp-script> to maintain performance and security.
+AMP Components:
+Many AMP components, such as <amp-carousel> or <amp-lightbox>, have JavaScript functionality built-in.
+This JavaScript is pre-compiled and optimized to ensure fast performance on AMP pages.
+So, in short, AMP pages are not primarily coded in JavaScript, but they do utilize JavaScript in a controlled manner to provide dynamic functionality without sacrificing performance.
