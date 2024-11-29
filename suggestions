@@ -1,0 +1,44 @@
+
+In JavaScript, Maps are a built-in data structure that allows you to store key-value pairs. Here's how you can work with them:
+Creating a Map:
+const myMap = new Map();
+
+Adding Key-Value Pairs:
+JavaScript
+
+myMap.set("name", "John");
+myMap.set("age", 30);
+myMap.set(1, "One"); // Keys can be any data type
+
+Retrieving Values:
+JavaScript
+
+console.log(myMap.get("name")); // Output: "John"
+console.log(myMap.get(1)); // Output: "One"
+
+Checking if a Key Exists:
+JavaScript
+
+console.log(myMap.has("name")); // Output: true
+console.log(myMap.has("address")); // Output: false
+
+Deleting a Key-Value Pair:
+JavaScript
+
+myMap.delete("age");
+
+
+Iterating Over a Map:
+JavaScript
+
+for (const [key, value] of myMap) {
+  console.log(key, value); // Output: "name John", "1 One"
+}
+
+
+Other Useful Methods:
+myMap.size: Returns the number of key-value pairs.
+myMap.clear(): Empties the map.
+
+
+
