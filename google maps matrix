@@ -1,0 +1,8 @@
+A typical Google Maps code, when used to embed a map on a website, looks like a line of HTML with a unique "src" attribute that points to the Google Maps API, including parameters like the latitude and longitude of the desired location, zoom level, and map type, all within a <iframe> tag; for example: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12643.71219595933!2d-74.005941!3d40.712784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590da4c4b9a1%3A0x8c4c9a5e2e042e9d!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sus!4v1695939884540!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>. 
+Key points about Google Maps code:
+API URL: The code starts with a URL that points to the Google Maps JavaScript API. 
+Parameters: Following the URL, you'll see parameters separated by "!" and usually including:
+Latitude and Longitude: Coordinates of the desired location. 
+Zoom Level: How zoomed in the map should be. 
+Map Type: Whether to display a standard map, satellite view, terrain, etc. 
+Embed Tag: The code is usually wrapped within an <iframe> tag to display the map directly on a web page
